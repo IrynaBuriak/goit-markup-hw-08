@@ -1,0 +1,19 @@
+.header {
+    border-bottom: 1px solid var(--bg-grey);
+    
+    &__logo {
+    color: var(--c-black);
+    }
+
+    &__block {
+        display: flex;
+        align-items: center;  
+        
+        @media screen and (max-width: 767px) 
+        {           
+        justify-content: space-between;
+            }
+
+    }
+    
+}
