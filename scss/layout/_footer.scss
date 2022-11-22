@@ -4,13 +4,21 @@
 
   &__block {
     display: flex;
-    align-items: baseline;
     flex-wrap: wrap;
 
     @media screen and (max-width: 768px) {
       gap: 60px;
       justify-content: center;
+      flex-direction: column;
       text-align: center;
+    }
+
+    @media screen and (min-width: 769px) and (max-width: 1199px) {
+      justify-content: center;
+      text-align: center;
+    }
+    @media screen and (min-width: 1200px) {
+      align-items: baseline;
     }
   }
 
@@ -19,7 +27,7 @@
   }
 
   &__address {
-    @media screen and (min-width: 768px) and (max-width: 1199px) {
+    @media screen and (max-width: 1199px) {
       flex-basis: calc(50% - 30px);
     }
   }
@@ -50,7 +58,7 @@
   }
 
   &__socials {
-    @media screen and (min-width: 768px) and (max-width: 1199px) {
+    @media screen and (max-width: 1199px) {
       flex-basis: calc(50% - 30px);
     }
 
@@ -81,7 +89,11 @@
   &__form {
     display: block;
 
-    @media screen and (min-width: 1199px) {
+    @media screen and (min-width: 769px) and (max-width: 1199px) {
+      margin-top: 60px;
+    }
+
+    @media screen and (min-width: 1200px) {
       margin-left: 113px;
     }
   }

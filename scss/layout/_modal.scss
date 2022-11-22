@@ -153,6 +153,10 @@
   label {
     position: relative;
 
+    @media screen and (max-width: 1199px) {
+      font-size: 12px;
+      line-height: 1.166;
+    }
     &::before {
       cursor: pointer;
       display: inline-block;
