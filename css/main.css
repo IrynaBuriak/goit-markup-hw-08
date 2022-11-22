@@ -572,14 +572,7 @@ img {
   }
 }
 
-@media screen and (min-width:1200px) {
-  .contacts__list {
-    gap: 50px;
-    display: flex;
-    flex-direction: column;    
-    padding: 0;
-  }
-}
+
 
 .contacts__link {
   color: var(--primary-text-color);

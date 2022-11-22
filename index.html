@@ -101,7 +101,7 @@
       </div>
     </header>
 
-    <main class="hero hide">
+    <main class="hero">
       <section class="hero__header">
         <div class="hero__block container">
           <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
@@ -162,7 +162,7 @@
         </div>
       </div>
 
-      <section class="section advantages hide">
+      <section class="section advantages">
         <div class="container">
           <h2 class="section__title visually-hidden">Наші переваги</h2>
           <ul class="advantages__list">
@@ -206,27 +206,40 @@
         </div>
       </section>
 
-      <section class="section projects hide">
+      <section class="section projects">
         <div class="container">
           <h2 class="section__title">Чим ми займаємося</h2>
           <ul class="projects__list">
             <li class="projects__item">
-              <img src="./images/box1.jpg" alt="Людина набирає текст на клавіатурі" width="370" />
+              <picture>
+                <source srcset="./images/desctop/box1@2x.jpg 2x" media="(min-width:1200px)" />
+
+                <img src="./images/box1.jpg" alt="Людина набирає текст на клавіатурі" />
+              </picture>
               <p class="projects__desc">Десктопні додатки</p>
             </li>
             <li class="projects__item">
-              <img src="./images/box2.jpg" alt="Людина тримає телефон в руці" width="370" />
+              <picture>
+                <source srcset="./images/desctop/box2@2x.jpg 2x" media="(min-width:1200px)" />
+
+                <img src="./images/box2.jpg" alt="Людина тримає телефон в руці" />
+              </picture>
               <p class="projects__desc">Мобільні додатки</p>
             </li>
             <li class="projects__item">
-              <img src="./images/box3.jpg" alt="Людина тримає планшет в руці." width="370" />
+              <picture>
+                <source srcset="./images/desctop/box3@2x.jpg 2x" media="(min-width:1200px)" />
+
+                <img src="./images/box3.jpg" alt="Людина тримає планшет в руці" />
+              </picture>
+
               <p class="projects__desc">Дизайнерські рішення</p>
             </li>
           </ul>
         </div>
       </section>
 
-      <section class="section team hide">
+      <section class="section team">
         <div class="container">
           <h2 class="section__title">Наша команда</h2>
           <ul class="team__list">
@@ -234,7 +247,7 @@
               <picture>
                 <source srcset="./images/mobile/team1-mb.jpg 1x, ./images/mobile/team1-mb@2x.jpg 2x" media="(max-width:767px)" />
                 <source srcset="./images/tablet/team1-tablet.jpg 1x, ./images/tablet/team1-tablet@2x.jpg 2x" media="(max-width:1199px)" />
-                <source srcset="./images/desctop/img1.jpg 1x, ./images/desctop/team1-desctop@2x.jpg 2x" media="(min-width:1200px)" />
+                <source srcset="./images/img1.jpg 1x, ./images/desctop/team1-desctop@2x.jpg 2x" media="(min-width:1200px)" />
 
                 <img src="./images/mobile/team1-mb.jpg" alt="Ігор Дем'яненко" />
               </picture>
@@ -279,7 +292,7 @@
               <picture>
                 <source srcset="./images/mobile/team2-mb.jpg 1x, ./images/mobile/team2-mb@2x.jpg 2x" media="(max-width:767px)" />
                 <source srcset="./images/tablet/team2-tablet.jpg 1x, ./images/tablet/team2-tablet@2x.jpg 2x" media="(max-width:1199px)" />
-                <source srcset="./images/desctop/img2.jpg 1x, ./images/desctop/team2-desctop@2x.jpg 2x" media="(min-width:1200px)" />
+                <source srcset="./images/img2.jpg 1x, ./images/desctop/team2-desctop@2x.jpg 2x" media="(min-width:1200px)" />
 
                 <img src="./images/mobile/team2-mb.jpg" alt="Ольга Рєпіна" />
               </picture>
@@ -324,7 +337,7 @@
               <picture>
                 <source srcset="./images/mobile/team3-mb.jpg 1x, ./images/mobile/team3-mb@2x.jpg 2x" media="(max-width:767px)" />
                 <source srcset="./images/tablet/team3-tablet.jpg 1x, ./images/tablet/team3-tablet@2x.jpg 2x" media="(max-width:1199px)" />
-                <source srcset="./images/desctop/img3.jpg 1x, ./images/desctop/team2-desctop@3x.jpg 2x" media="(min-width:1200px)" />
+                <source srcset="./images/img3.jpg 1x, ./images/desctop/team3-desctop@2x.jpg 2x" media="(min-width:1200px)" />
 
                 <img src="./images/mobile/team3-mb.jpg" alt="Микола Тарасов" />
               </picture>
@@ -369,7 +382,7 @@
               <picture>
                 <source srcset="./images/mobile/team4-mb.jpg 1x, ./images/mobile/team4-mb@2x.jpg 2x" media="(max-width:767px)" />
                 <source srcset="./images/tablet/team4-tablet.jpg 1x, ./images/tablet/team4-tablet@2x.jpg 2x" media="(max-width:1199px)" />
-                <source srcset="./images/desctop/img4.jpg 1x, ./images/desctop/team2-desctop@4x.jpg 2x" media="(min-width:1200px)" />
+                <source srcset="./images/img4.jpg 1x, ./images/desctop/team4-desctop@2x.jpg 2x" media="(min-width:1200px)" />
 
                 <img src="./images/mobile/team4-mb.jpg" alt="Михайло Єрмаков" />
               </picture>
@@ -413,7 +426,7 @@
         </div>
       </section>
 
-      <section class="section clients hide">
+      <section class="section clients">
         <div class="container">
           <h2 class="section__title">Постійні клієнти</h2>
           <ul class="clients__list">
@@ -464,7 +477,7 @@
       </section>
     </main>
 
-    <footer class="footer hide">
+    <footer class="footer">
       <div class="container footer__block">
         <div class="footer__address">
           <a href="./index.html" class="logo" lang="en">Web<span class="footer__logo">Studio</span></a>

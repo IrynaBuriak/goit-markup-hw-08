@@ -1,32 +1,20 @@
 .footer {
     background-color: var(--bg-dgrey);
+    padding: 60px 0;
 
 
     
-    &__block {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-                
-        @media screen and (max-width:767px){
-        flex-direction: column;
-        gap: 60px;
-        align-items: center;
-        text-align: center;
-        }
-        @media screen and(max-width:1200px) {
+    &__block { 
         display: flex;
         align-items: baseline;
-                    }    
-
+   
     &__logo {
         color: var(--c-white);
     }
 
     &__address {
         display: block;
-        @media screen and (max-width: 1199px)
-        {text-align: center;}
+        
     }
 
     &__link {
@@ -39,22 +27,11 @@
                 color: var(--accent-color);
             }
     }
-
-    &__list {    
-        @media screen and(max-width:1199px) {
-            text-align: center;
-            display: block;
-        }
-    }
-    
+        
     &__contacts{
         &:first-child {margin-top: 20px;}
         &:not(:last-child) {margin-bottom: 9px;}
-
-        @media screen and(max-width:768px) {
-            display: block;
-            text-align: center;
-        }
+       
     }
 
     &__link__map {
@@ -93,10 +70,6 @@
         display: block;
         margin-left: 113px;
         width: 100%;
-
-        @media screen and (max-width: 1199px) {
-        text-align: center;
-        }
         }
     }
 
