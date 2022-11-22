@@ -16,6 +16,10 @@
     @media screen and (max-width: 767px) {
       flex-basis: calc((100% - 30px) / 2);
     }
+
+    @media screen and (min-width: 1200px) {
+      width: 170px;
+    }
   }
 
   &__link {
