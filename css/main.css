@@ -483,6 +483,11 @@ img {
 .header {
   border-bottom: 1px solid var(--bg-grey);
 }
+@media screen and (max-width: 767px) {
+  .header {
+    padding: 15px 0;
+  }
+}
 .header__logo {
   color: var(--c-black);
 }
