@@ -1,5 +1,7 @@
 .advantages {
-  padding-bottom: 0;
+  @media screen and (min-width: 1199px) {
+    padding-bottom: 0;
+  }
 
   &__list {
     display: flex;
