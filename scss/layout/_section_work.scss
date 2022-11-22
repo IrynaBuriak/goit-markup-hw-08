@@ -14,9 +14,8 @@
         }
     }
 
-    &__filter {
-        &:not(:last-child) {
-            margin-right: 8px;}
+    &__filter {        
+            gap: 8px;
         }
     
     &__list {
