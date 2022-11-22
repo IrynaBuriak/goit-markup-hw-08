@@ -12,6 +12,7 @@
       justify-content: center;
       align-items: center;
       text-align: center;
+      flex-basis: calc(50%-30px);
     }
 
     @media screen and (max-width: 768px) {
@@ -19,6 +20,7 @@
       justify-content: center;
       align-items: center;
       text-align: center;
+      flex-basis: calc(50%-30px);
     }
   }
 
@@ -28,6 +30,10 @@
 
   &__address {
     display: block;
+
+    @media screen and (min-width: 1199px) {
+      flex-basis: calc((50%-30px) / 2);
+    }
   }
 
   &__link {
@@ -58,8 +64,9 @@
   &__socials {
     display: block;
 
-    @media screen and (min-width: 1199px) {
-      margin-left: 70px;
+    @media screen and (min-width: 767px) and (max-width: 1199px) {
+      // margin-left: 70px;
+      flex-basis: calc((50%-30px) / 2);
     }
   }
 
